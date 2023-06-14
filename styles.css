@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    height: 450px;
+    border: 1px solid rgb(180, 180, 180);
+    box-shadow: 1px 1px 1px 1px black;
+}
+
+.input {
+    width: 434px;
+    height: 50px;
+    border: 1px solid black;
+}
+
+.operators div {
+  display: inline-block;
+  border: 1px solid #bbb;
+  border-radius: 2px;
+  width: 80px;
+  text-align: center;
+  padding: 10px;
+  margin: 20px 4px 10px 0;
+  cursor: pointer;
+  background-color: #ddd;
+  transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
+}
+
+.numbers div {
+    display: inline-block;
+    border: 1px solid #bbb;
+    border-radius: 2px;
+    width: 80px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px 4px 10px 0;
+    cursor: pointer;
+    background-color: #efefef;
+    transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
+}
